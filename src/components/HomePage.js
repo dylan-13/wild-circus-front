@@ -18,7 +18,7 @@ function HomePage() {
 
     // récupére la donnée du back connecté et envoi celle-ci dans setStudentsData
     const getStudents = async () => {
-        await axios.get('http://localhost:5000/students')
+        await axios.get('https://wild-circus.herokuapp.com/students')
             .then(response => setStudentsData(response.data))
             .catch((err) => console.log(err))
     }
