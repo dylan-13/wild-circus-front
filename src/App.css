@@ -35,7 +35,7 @@ div.intro {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5vw;
   color: #ec6d6a;
 }
 
@@ -56,13 +56,12 @@ ul.liste {
   display: flex;
   align-items: center;
   height: 80px;
+  font-size: 4vw;
 }
 
 li.liste {
   display: flex;
-  padding: 20px 100px;
-  font-size: xx-large;
-
+  padding: 5vw;
 }
 
 /* HomePage */
