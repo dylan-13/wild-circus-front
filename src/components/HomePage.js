@@ -46,7 +46,7 @@ function HomePage() {
             <div id='shows' className="shows">
                 <h2>Showmen</h2>
                 <br />
-                <img style={{ width: '100%', height: '100%', position: 'absolute', zIndex: '-1' }} src={homeBack} alt='backgroud' />
+                <img style={{ width: 'auto', height: '100vh', position: 'absolute', zIndex: '-1' }} src={homeBack} alt='backgroud' />
                 <h5>At the Wild circus Marseille, you can find some funny guys to laught with, Here is some of the showmen you should see</h5>
                 <br />
                 <div className='show'>
