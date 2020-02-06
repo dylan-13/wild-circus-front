@@ -66,9 +66,9 @@ function HomePage() {
                     <img className='show' src={antho} alt='Wilder pic' />
                 </div>
             </div>
-            <div className='aboutUs' >
+            <div id='aboutUs' className='aboutUs' >
                 <img style={{ width: '100%', height: '100%', position: 'absolute', zIndex: '-1' }} src={aboutUsBack} alt='backgroud' />
-                <h2 id='aboutUs' >About</h2>
+                <h2>About</h2>
                 <br />
                 <img className='crew' src={crew} alt='wild circus crew' />
                 <br />
@@ -81,8 +81,8 @@ function HomePage() {
                     Come to us and be a part of the magic.
             </h3>
             </div>
-            <div className='discover'>
-                <h2 id='discover'>Discover</h2>
+            <div id='discover' className='discover'>
+                <h2>Discover</h2>
                 <br />
                 <div className='cardsRow'>
                     {carouselItems.slice(0, 5)}
