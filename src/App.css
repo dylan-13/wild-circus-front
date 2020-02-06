@@ -251,22 +251,6 @@ img.footer {
 }
 
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  div.navbar {
-    top: 0;
-    font-size: 5vw;
-  }
-
-  h2 {
-    display: none;
-  }
-
-  img.question {
-    width: 10vw;
-  }
-
-}
-
 @media (min-width: 481px) and (max-width: 767px) {
   div.navbar {
     top: 0;
