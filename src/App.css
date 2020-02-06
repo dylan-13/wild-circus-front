@@ -138,7 +138,7 @@ div.shows {
 div.show {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin: 10px 0;
   background-color: black;
   border: 2px solid aliceblue;
 }
@@ -163,7 +163,7 @@ h3.text {
   text-align: center;
   width: 65%;
   text-align: center;
-  font-size: xx-large;
+  font-size: 2.5vw;
 }
 
 img.crew {
