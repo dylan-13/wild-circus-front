@@ -24,6 +24,7 @@ div.navbar {
   position: fixed;
   width: 100vw;
   top: 50px;
+  font-size: 2.5vw;
 }
 
 div.intro {
@@ -55,7 +56,6 @@ ul.liste {
   display: flex;
   align-items: center;
   height: 80px;
-  font-size: 2.5vw;
 }
 
 li.liste {
@@ -250,50 +250,18 @@ img.footer {
   position: absolute;
 }
 
-@media (min-width: 1025px) and (max-width: 1280px) {
-  
-  //CSS
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
 
 @media (min-width: 768px) and (max-width: 1024px) {
-  
-  //CSS
-  
+  div.navbar {
+    top:0;
+    font-size: 5vw;
+  }
 }
-
-/* 
-  ##Device = Tablets, Ipads (landscape)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  
-  //CSS
-  
-}
-
-/* 
-  ##Device = Low Resolution Tablets, Mobiles (Landscape)
-  ##Screen = B/w 481px to 767px
-*/
 
 @media (min-width: 481px) and (max-width: 767px) {
-  
-  //CSS
-  
+    
 }
 
-/* 
-  ##Device = Most of the Smartphones Mobiles (Portrait)
-  ##Screen = B/w 320px to 479px
-*/
-
 @media (min-width: 320px) and (max-width: 480px) {
-  
-  //CSS
+
+}
