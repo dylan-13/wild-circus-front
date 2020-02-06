@@ -166,7 +166,7 @@ h3.text {
 }
 
 img.crew {
-  padding-top: 20px;
+  margin-top: 20px;
   width: 80%;
   height: auto;
   border-radius: 2%;
@@ -277,6 +277,15 @@ img.footer {
   div.navbar {
     top: 0;
     font-size: 5vw;
+  }
+
+  img.crew {
+    margin-top: 60px;
+  }
+
+  h5 {
+    font-size: 4vw;
+    margin-top: 20px;
   }
 
   h2 {
