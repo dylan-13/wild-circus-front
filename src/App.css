@@ -93,7 +93,6 @@ img.question {
   width: 50vw;
   transform: translateY(100%);
   transition: transform 0.5s;
-
 }
 
 #question:hover::before {
@@ -267,6 +266,11 @@ img.footer {
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+
+  img.imgBack {
+    width: auto;
+  }
+
   div.navbar {
     top: 0;
     font-size: 5vw;
@@ -306,6 +310,15 @@ img.footer {
 
   h1 {
     font-size: 5vw;
+  }
+
+  img.logo {
+    width: 15vw;
+  }
+
+  #question::before {
+    height: 55vh;
+    width: 100vw;
   }
 }
 
