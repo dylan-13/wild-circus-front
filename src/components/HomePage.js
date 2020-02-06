@@ -33,7 +33,7 @@ function HomePage() {
 
     const carouselItems = studentsData.map(x => (<div className='students'>
         <div className='linkedin'>
-            <a href={x.linkedIn} style={{ width: 'auto' }} ><img style={{ width: '2vw', height: 'auto' }} className='linkedIn' src={linkedIn} alt='linkedin logo' /></a>
+            <a href={x.linkedIn} style={{ width: 'auto' }} ><img style={{ width: '2vw', height: 'auto', display:'flex' }} className='linkedIn' src={linkedIn} alt='linkedin logo' /></a>
         </div>
         <div className='card1' ><h6 className='name'>{x.firstName} {x.lastName}</h6>
             <img className='students' src={images[x.id]} alt='students pics' />
