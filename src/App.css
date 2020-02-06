@@ -153,7 +153,7 @@ div.aboutUs {
 
 h2 {
   text-align: center;
-  font-size: xxx-large;
+  font-size: 3vw;
   border-bottom: aliceblue 1px solid;
   width: 12rem;
   margin-bottom: 55px;
@@ -163,7 +163,7 @@ h3.text {
   text-align: center;
   width: 65%;
   text-align: center;
-  font-size: 2.5vw;
+  font-size: 2vw;
 }
 
 img.crew {
