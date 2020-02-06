@@ -287,6 +287,11 @@ img.footer {
       font-size: 5vw;
     }
 
+    img.show {
+      height: 20vw;
+      min-width: 20vw;
+    }
+
     img.crew {
       margin-top: 60px;
     }
@@ -295,9 +300,19 @@ img.footer {
       width: 10vw;
     }
 
+    div.shows {
+      width: 90%;
+    }
+
     h5 {
-      font-size: 4vw;
-      margin-top: 20px;
+      font-size: 5vw;
+      margin-top: 60px;
+      padding: 0;
+    }
+
+    h4 {
+      font-size: 3vw;
+      padding: 0 10px;
     }
 
     h2 {
