@@ -104,9 +104,9 @@ img.question {
 
 
 img.show {
-  width: 10%;
-  height: auto;
-  border: 2px solid aliceblue;
+  height: 10vh;
+  width: 10vw;
+  border: 2px solid #f0f8ff;
   border-radius: 2%;
 }
 
@@ -117,7 +117,7 @@ h4 {
 }
 
 h5 {
-  font-size: xx-large;
+  font-size: 2vw;
   border: 2px solid;
   border-radius: 2%;
   padding:  20px 0;
