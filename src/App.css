@@ -198,7 +198,6 @@ div.cardsRow {
   border-radius: 2%;
 }
 
-
 div.students {
   border: aliceblue 2px solid;
   border-radius: 2%;
@@ -293,6 +292,10 @@ img.footer {
   img.show {
     height: 20vw;
     min-width: 20vw;
+  }
+
+  img.showBack {
+    width: auto;
   }
 
   img.crew {
