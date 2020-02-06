@@ -32,7 +32,7 @@ function HomePage() {
     const images = importAll(require.context('../../public/students/', false, /\.(png|jpe?g|svg)$/));
 
     const carouselItems = studentsData.map(x => (<div className='students'>
-        <div className='popo'>
+        <div className='linkedin'>
             <a href={x.linkedIn} style={{ width: 'auto' }} ><img style={{ width: '2vw', height: 'auto' }} className='linkedIn' src={linkedIn} alt='linkedin logo' /></a>
         </div>
         <div className='card1' ><h6 className='name'>{x.firstName} {x.lastName}</h6>
