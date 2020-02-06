@@ -282,4 +282,15 @@ img.footer {
   h2 {
     display: none;
   }
+
+  h1 {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 319px) {
+  * {
+    display: none;
+  }
+
 }
