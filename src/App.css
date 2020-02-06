@@ -322,7 +322,7 @@ img.footer {
     width: 15vw;
   }
 
-  div.cardsRow:first-child {
+  div.cardsRow:nth-of-type(1) {
     margin-top: 60px;
   }
 
