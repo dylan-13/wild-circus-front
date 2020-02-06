@@ -264,53 +264,53 @@ img.footer {
   img.question {
     width: 10vw;
   }
+}
 
-  @media (min-width: 320px) and (max-width: 480px) {
-    div.navbar {
-      top: 0;
-      font-size: 5vw;
-    }
-
-    img.show {
-      height: 20vw;
-      min-width: 20vw;
-    }
-
-    img.crew {
-      margin-top: 60px;
-    }
-
-    img.question {
-      width: 10vw;
-    }
-
-    div.shows {
-      width: 90%;
-    }
-
-    h5 {
-      font-size: 5vw;
-      margin-top: 60px;
-      padding: 0;
-    }
-
-    h4 {
-      font-size: 3vw;
-      padding: 0 10px;
-    }
-
-    h2 {
-      display: none;
-    }
-
-    h1 {
-      font-size: 5vw;
-    }
+@media (min-width: 320px) and (max-width: 480px) {
+  div.navbar {
+    top: 0;
+    font-size: 5vw;
   }
 
-  @media (max-width: 319px) {
-    * {
-      display: none;
-    }
-
+  img.show {
+    height: 20vw;
+    min-width: 20vw;
   }
+
+  img.crew {
+    margin-top: 60px;
+  }
+
+  img.question {
+    width: 10vw;
+  }
+
+  div.shows {
+    width: 90%;
+  }
+
+  h5 {
+    font-size: 5vw;
+    margin-top: 60px;
+    padding: 0;
+  }
+
+  h4 {
+    font-size: 3vw;
+    padding: 0 10px;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  h1 {
+    font-size: 5vw;
+  }
+}
+
+@media (max-width: 319px) {
+  * {
+    display: none;
+  }
+}
