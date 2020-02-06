@@ -231,7 +231,6 @@ div.footer {
 }
 
 p.footer {
-  font-size: large;
   color: black;
   font-weight: bold;
   height: 20px;
@@ -239,7 +238,7 @@ p.footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1vw;
 }
 
 img.footer {
@@ -331,6 +330,17 @@ img.footer {
     width: 100vw;
     margin-left: -15%;
   }
+
+  div.footer {
+    position: fixed;
+    bottom: 0;
+  }
+
+  p.footer {
+    font-size: 4vw;
+  }
+
+
 }
 
 @media (max-width: 319px) {
