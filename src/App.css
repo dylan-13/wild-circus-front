@@ -31,7 +31,7 @@ div.intro {
 }
 
 div.cardsRow:nth-of-type(1) {
-  margin-top:1vh;
+  margin-top: 1vh;
 }
 
 h1 {
@@ -70,7 +70,6 @@ div.homepage {
   align-items: center;
 }
 
-
 img.question {
   width: 3vw;
   height: auto;
@@ -82,7 +81,7 @@ img.question {
 
 #question::before {
   content: '';
-  background-image: url(/static/media/me.2eb574a2.png);
+  background-image: url('./img/me.png');
   background-position: 0px;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -90,11 +89,12 @@ img.question {
   margin-left: -10%;
   position: unset;
   width: 40vw;
+  transform: translateX(-600px);
   transition: transform 0.5s;
 }
 
 #question:hover::before {
-  transform: translateY(0px);
+  transform: translateY(-50px);
   display: flex;
 }
 
@@ -137,7 +137,7 @@ div.shows {
 }
 
 div.show {
-  width: 90%;
+  width: 70%;
   display: flex;
   align-items: center;
   margin: 10px 0;
@@ -307,6 +307,10 @@ img.footer {
 
   img.showBack {
     width: auto;
+  }
+
+  div.show {
+    width: 90%;
   }
 
   img.crew {
