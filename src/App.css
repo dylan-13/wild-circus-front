@@ -76,8 +76,8 @@ img.question {
   height: auto;
   border-radius: 100%;
   position: absolute;
-  bottom: 2vw;
-  right: 3vh;
+  bottom: 3vh;
+  right: 1vw;
 }
 
 #question::before {
