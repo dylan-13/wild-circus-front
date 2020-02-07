@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import linkedIn from '../img/linkedIn.png'
 
@@ -20,6 +20,7 @@ function Discover() {
     function importAll(r) {
         return r.keys().map(r);
     }
+
     const images = importAll(require.context('../../public/students/', false, /\.(png|jpe?g|svg)$/));
 
     const carouselItems = studentsData.map(x => (<div className='students'>

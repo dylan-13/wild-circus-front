@@ -68,12 +68,12 @@ div.homepage {
 
 
 img.question {
-  width: 5vw;
+  width: 3vw;
   height: auto;
   border-radius: 100%;
   position: absolute;
-  bottom: 20px;
-  right: 20px;
+  bottom: 2vw;
+  right: 3vh;
 }
 
 #question::before {
@@ -82,7 +82,7 @@ img.question {
   background-position: 0px;
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 60vh;
+  height: 50vh;
   margin-left: -15%;
   position: unset;
   width: 50vw;
@@ -114,7 +114,7 @@ h5 {
   border: 2px solid;
   border-radius: 2%;
   padding: 20px 0;
-  margin: 50px 0 0;
+  margin: 2vw 0 0;
   background-color: black;
   width: 70%;
   text-align: center;
@@ -155,7 +155,6 @@ h2 {
   text-align: center;
   font-size: 3vw;
   border-bottom: aliceblue 1px solid;
-  width: 12rem;
   margin-bottom: 6vh;
 }
 
