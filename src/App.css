@@ -30,6 +30,10 @@ div.intro {
   height: 70vh;
 }
 
+div.cardsRow:nth-of-type(1) {
+  margin-top:1vh;
+}
+
 h1 {
   font-size: 4vw;
   color: #ec6d6a;
@@ -78,15 +82,14 @@ img.question {
 
 #question::before {
   content: '';
-  background-image: url('../src/img/me.png');
+  background-image: url(/static/media/me.2eb574a2.png);
   background-position: 0px;
   background-repeat: no-repeat;
   background-size: 100%;
   height: 50vh;
-  margin-left: -15%;
+  margin-left: -10%;
   position: unset;
-  width: 50vw;
-  transform: translateY(100%);
+  width: 40vw;
   transition: transform 0.5s;
 }
 
@@ -94,7 +97,6 @@ img.question {
   transform: translateY(0px);
   display: flex;
 }
-
 
 img.show {
   height: 10vw;
@@ -114,7 +116,7 @@ h5 {
   border: 2px solid;
   border-radius: 2%;
   padding: 20px 0;
-  margin: 2vw 0 0;
+  margin: 5vh 0 0;
   background-color: black;
   width: 70%;
   text-align: center;
@@ -135,7 +137,7 @@ div.shows {
 }
 
 div.show {
-  width: 70%;
+  width: 90%;
   display: flex;
   align-items: center;
   margin: 10px 0;
@@ -258,8 +260,16 @@ img.footer {
     font-size: 5vw;
   }
 
+  img.crew {
+    margin-top: 60px;
+  }
+
   h6.name {
     font-size: 2vw;
+  }
+
+  h3.text {
+    font-size: 5vw;
   }
 
   img.showBack {
@@ -272,6 +282,10 @@ img.footer {
 
   img.question {
     width: 10vw;
+  }
+
+  div.cardsRow:nth-of-type(1) {
+    margin-top: 8vh;
   }
 }
 
@@ -297,8 +311,7 @@ img.footer {
 
   img.crew {
     margin-top: 60px;
-    height: 18vh;
-    width: auto;
+    width: 90vw;
   }
 
   img.question {
@@ -313,6 +326,7 @@ img.footer {
     font-size: 5vw;
     margin-top: 60px;
     padding: 0;
+    width: 90%;
   }
 
   h4 {
@@ -338,7 +352,7 @@ img.footer {
   }
 
   div.cardsRow:nth-of-type(1) {
-    margin-top: 60px;
+    margin-top: 8vh;
   }
 
   #question::before {

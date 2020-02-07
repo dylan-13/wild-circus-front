@@ -9,7 +9,7 @@ function Header() {
             <div className='intro'>
                 <h1>Welcome to the Wild Circus Marseille of the september 2019 batch</h1>
             </div>
-            <a href='null' id='question' ><img className='question' src={question} alt='question mark' /></a>
+            <a id='question' ><img className='question' src={question} alt='question mark' /></a>
         </div>
     );
 }
